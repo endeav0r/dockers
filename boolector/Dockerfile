@@ -12,7 +12,7 @@ RUN apt-get update && \
 
 RUN cd && \
     wget http://fmv.jku.at/boolector/boolector-2.4.1-with-lingeling-bbc.tar.bz2 && \
-    tar xf boolector && \
+    tar xf boolector-2.4.1-with-lingeling-bbc.tar.bz2 && \
     cd boolector-2.4.1-with-lingeling-bbc && \
     make && \
     cp boolector/bin/* /usr/local/bin
